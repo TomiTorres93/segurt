@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.seccion-p, .seccion-g, .portada, header {
+.seccion, .portada, header {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -25,13 +25,14 @@
 }
 .menu .opciones {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 0.7rem;
   margin-top: 0px;
   width: 100%;
   color: black;
   letter-spacing: 1px;
-  word-spacing: 20px;
+  word-spacing: 100px;
   justify-content: space-evenly;
+  font-weight: 500;
 }
 .menu a {
   text-decoration: none;
@@ -67,7 +68,7 @@
   align-items: center;
 }
 
-.seccion-p, .seccion-g, .portada, header {
+.seccion, .portada, header {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -78,6 +79,7 @@
   position: absolute;
   z-index: 50;
   top: 0px;
+  width: 100%;
 }
 
 .logo-container {
@@ -90,6 +92,20 @@
   width: 207px;
 }
 
+.portada {
+  text-align: right;
+}
+
+.titulo-portada {
+  width: 767px;
+  height: 230.96px;
+}
+
+.titulo-portada-container {
+  padding: 0px 0 0 200px;
+  z-index: 100;
+}
+
 /* Extends */
 .menu {
   display: flex;
@@ -97,7 +113,7 @@
   align-items: center;
 }
 
-.seccion-p, .seccion-g, .portada, header {
+.seccion, header, .portada {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -110,7 +126,10 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 25px;
+}
+html ::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -121,10 +140,6 @@ body {
 }
 
 /*SECCIONES*/
-.portada {
-  text-align: right;
-}
-
 .bg-gris {
   background-color: #D8D8D8;
 }
@@ -132,7 +147,7 @@ body {
 /*IMAGENES*/
 .img-g {
   width: 100%;
-  text-align: right;
+  right: 0px;
 }
 
 .img-p-container {
@@ -149,7 +164,7 @@ body {
 
 /*TEXTOS*/
 .text-container {
-  padding: 0% 0% 0% 5%;
+  padding: 0% 5% 3% 3%;
 }
 
 .parrafo {
@@ -162,6 +177,23 @@ body {
   font-weight: 800;
 }
 
+.text-container-rojo {
+  width: 75%;
+  height: 328px;
+  background-color: #AB1D37;
+  z-index: 100;
+  color: white;
+  padding: 1% 2% 1% 3%;
+  position: relative;
+  bottom: 328px;
+  margin: auto;
+}
+
+.text-container-seguridad {
+  padding: 1% 3% 1% 3%;
+  height: 508px;
+}
+
 /* Extends */
 .menu {
   display: flex;
@@ -169,7 +201,7 @@ body {
   align-items: center;
 }
 
-header, .portada, .seccion-g, .seccion-p {
+header, .portada, .seccion {
   display: flex;
   align-items: center;
   flex-direction: row;

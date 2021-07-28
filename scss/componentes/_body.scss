@@ -14,7 +14,11 @@
 
 
 html {
-    font-size: 16px ;
+    font-size: 25px ;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 body {
@@ -27,16 +31,8 @@ body {
 
 /*SECCIONES*/
 
-.portada {
-    @extend %flexbox-row;
-    text-align: right;
-}
 
-.seccion-g {
-    @extend %flexbox-row;
-}
-
-.seccion-p {
+.seccion {
     @extend %flexbox-row;
 }
 
@@ -47,7 +43,7 @@ body {
 
 .img-g {
     width: 100%;
-    text-align: right;
+    right: 0px;
 }
 
 .img-p-container {
@@ -66,7 +62,7 @@ body {
 
 /*TEXTOS*/
 .text-container {
-    padding: 0% 0% 0% 5%;
+    padding: 0% 5% 3% 3%;
 }
 
 .parrafo {
@@ -78,4 +74,23 @@ body {
 .subtitulo {
     font-size: 2rem;
     font-weight: nth($font-weight, 3);
+}
+
+
+
+.text-container-rojo {
+    width: 75%;
+    height: 328px;
+    background-color: nth($color, 1);
+    z-index: 100;
+    color: white;
+    padding: 1% 2% 1% 3%;
+    position: relative;
+    bottom: 328px;
+    margin: auto;
+}
+
+.text-container-seguridad {
+    padding: 1% 3% 1% 3%;
+    height: 508px;
 }

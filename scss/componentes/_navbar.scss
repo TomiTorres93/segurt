@@ -22,13 +22,14 @@
 
     .opciones {
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 0.7rem;
         margin-top: 0px;
         width: 100%;
         color: black;
         letter-spacing: 1px;
-        word-spacing: 20px;
+        word-spacing: 100px;
         justify-content: space-evenly;
+        font-weight: nth($font-weight, 2);
     }
 
     a {
