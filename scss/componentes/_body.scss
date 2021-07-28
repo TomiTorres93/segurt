@@ -1,0 +1,81 @@
+
+@import '../funciones/extends';
+@import '../funciones/list';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+html {
+    font-size: 16px ;
+}
+
+body {
+    line-height: 1.55;
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+/*SECCIONES*/
+
+.portada {
+    @extend %flexbox-row;
+    text-align: right;
+}
+
+.seccion-g {
+    @extend %flexbox-row;
+}
+
+.seccion-p {
+    @extend %flexbox-row;
+}
+
+.bg-gris {
+    background-color: #D8D8D8;
+}
+/*IMAGENES*/
+
+.img-g {
+    width: 100%;
+    text-align: right;
+}
+
+.img-p-container {
+    width: 50%;
+}
+
+.img-p {
+    width: 100%;
+}
+
+.img-portada {
+
+ width: 100%;
+
+}
+
+/*TEXTOS*/
+.text-container {
+    padding: 0% 0% 0% 5%;
+}
+
+.parrafo {
+    font-size: 1rem;
+    font-weight: nth($font-weight, 1);
+
+}
+
+.subtitulo {
+    font-size: 2rem;
+    font-weight: nth($font-weight, 3);
+}

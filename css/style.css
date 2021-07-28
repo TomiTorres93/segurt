@@ -1,0 +1,178 @@
+/* Extends */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion-p, .seccion-g, .portada, header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* LISTAS */
+/* MENU */
+.menu {
+  text-decoration: none;
+  text-align: right;
+  position: absolute;
+  right: 100px;
+  color: #AB1D37;
+  font-size: 0.85rem;
+  z-index: 100;
+  font-weight: 500;
+}
+.menu .opciones {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  width: 100%;
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 20px;
+  justify-content: space-evenly;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+.menu li a {
+  transition: 0.2s all;
+}
+.menu li a:hover {
+  font-weight: 800;
+}
+.menu .active {
+  font-weight: 800;
+}
+.menu nav ul li {
+  margin: 10px;
+}
+
+/* Extends */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion-p, .seccion-g, .portada, header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* LISTAS */
+.fondo-header {
+  position: absolute;
+  z-index: 50;
+  top: 0px;
+}
+
+.logo-container {
+  z-index: 100;
+  padding: 10px 0 0 100px;
+}
+
+.logo-img {
+  height: 66px;
+  width: 207px;
+}
+
+/* Extends */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion-p, .seccion-g, .portada, header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* LISTAS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.55;
+  width: 100%;
+  margin: 0px auto;
+  font-family: "Barlow", sans-serif;
+}
+
+/*SECCIONES*/
+.portada {
+  text-align: right;
+}
+
+.bg-gris {
+  background-color: #D8D8D8;
+}
+
+/*IMAGENES*/
+.img-g {
+  width: 100%;
+  text-align: right;
+}
+
+.img-p-container {
+  width: 50%;
+}
+
+.img-p {
+  width: 100%;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+/*TEXTOS*/
+.text-container {
+  padding: 0% 0% 0% 5%;
+}
+
+.parrafo {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.subtitulo {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* Extends */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header, .portada, .seccion-g, .seccion-p {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */

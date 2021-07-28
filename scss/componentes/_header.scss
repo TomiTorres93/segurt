@@ -1,0 +1,28 @@
+
+@import '../funciones/extends';
+@import '../funciones/list';
+@import '../funciones/mixins';
+
+@import '../base/variables';
+
+
+header {
+    @extend %flexbox-row;
+}
+
+.fondo-header {
+    position: absolute;
+    z-index: 50;
+    top: 0px;
+}
+
+.logo-container {
+    z-index: 100;
+padding: 10px 0 0 100px;
+}
+
+.logo-img {
+    height: 66px;
+    width: 207px;
+
+}
