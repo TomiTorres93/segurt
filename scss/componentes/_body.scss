@@ -48,6 +48,7 @@ a {
     @extend %flexbox-row;
 }
 
+
 .bg-gris {
     background-color: #D8D8D8;
 }
@@ -113,12 +114,12 @@ a {
     margin-top: 10vw;
 }
 
-.footer {
+.seccion-consejos {
     @extend %flexbox-row;
-    background-color: nth($color, 1);
-    margin-top: 10vw;
-    height: 25vw;
+    height: 35vw;
+    margin-top: 5vw;
 }
+
 
 /*IMAGENES*/
 
@@ -146,9 +147,8 @@ a {
     width: 47%;
 }
 
-.logo-img-blanco {
-box-shadow: inset 100px white;
-}
+
+
 
 /*TEXTOS*/
 .text-container {
@@ -168,6 +168,7 @@ box-shadow: inset 100px white;
     font-size: 2vw;
     font-weight: nth($font-weight, 3);
 }
+
 
 .text-container-rojo {
     width: 70vw;
@@ -256,6 +257,8 @@ box-shadow: inset 100px white;
     width: 8vw;
     margin: 0vw 0vw 0vw 15vw;
 }
+
+
 
 /* ADJUNTAR CV BOTON */
 

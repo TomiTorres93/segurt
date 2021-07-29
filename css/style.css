@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-body .footer, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, .portada, header {
+body .seccion-consejos, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, .portada, header, .footer .footer-blocks, .footer {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -68,7 +68,88 @@ body .footer, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, 
   align-items: center;
 }
 
-body .footer, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, .portada, header {
+body .seccion-consejos, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, .portada, header, .footer .footer-blocks, .footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* LISTAS */
+.footer {
+  background-color: #AB1D37;
+  margin-top: 3vw;
+  height: 18vw;
+  color: white;
+  padding: 0vw 0vw 4vw 8vw;
+  /*FORM*/
+}
+.footer .img-footer {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  height: 1.2vw;
+  margin: 0 0.5vw 0 0;
+}
+.footer .footer-textos {
+  font-size: 1vw;
+  font-weight: 600;
+  margin: 0 1vw;
+}
+.footer .footer-blocks {
+  font-size: 1vw;
+  font-weight: 600;
+  margin-top: 1vw;
+}
+.footer .subtitulo-footer {
+  font-size: 1vw;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+.footer .logo-img-footer {
+  height: 66px;
+  width: 207px;
+  margin-bottom: 2vw;
+}
+.footer .form-container {
+  padding-top: 2vw;
+  width: 40%;
+}
+.footer .email-footer {
+  height: 2vw;
+  font-size: 0.8vw;
+  width: 30.7vw;
+}
+.footer .nombre-empresa {
+  height: 2vw;
+  width: 15vw;
+  font-size: 0.8vw;
+  margin-bottom: 0.6vw;
+}
+.footer .comentario {
+  height: 4vw;
+  width: 30.7vw;
+  font-size: 0.8vw;
+}
+.footer .footer-boton {
+  font-size: 1vw;
+  font-weight: 800;
+  padding: 0.1vw;
+  height: 2vw;
+  width: 6vw;
+  margin-top: 1vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Extends */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .seccion-consejos, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, .portada, header, .footer, .footer .footer-blocks {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -113,7 +194,7 @@ body .footer, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, 
   align-items: center;
 }
 
-body .footer, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, header, .portada {
+body .seccion-consejos, body .seccion-rrhh, body .seccion-seguridad, body .carousel-area, body .seccion-area, body .seccion-perseg, body .seccion, .footer, .footer .footer-blocks, header, .portada {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -199,10 +280,9 @@ body .seccion-rrhh {
   height: 35vw;
   margin-top: 10vw;
 }
-body .footer {
-  background-color: #AB1D37;
-  margin-top: 10vw;
-  height: 25vw;
+body .seccion-consejos {
+  height: 35vw;
+  margin-top: 5vw;
 }
 body .img-g {
   width: 100%;
@@ -221,9 +301,6 @@ body .img-c {
 }
 body .img-container {
   width: 47%;
-}
-body .logo-img-blanco {
-  box-shadow: inset 100px white;
 }
 body .text-container {
   padding: 0% 5% 3% 3%;
@@ -339,7 +416,7 @@ body .cv-boton {
   align-items: center;
 }
 
-header, .portada, body .seccion, body .seccion-perseg, body .seccion-area, body .carousel-area, body .seccion-seguridad, body .seccion-rrhh, body .footer {
+.footer, .footer .footer-blocks, header, .portada, body .seccion, body .seccion-perseg, body .seccion-area, body .carousel-area, body .seccion-seguridad, body .seccion-rrhh, body .seccion-consejos {
   display: flex;
   align-items: center;
   flex-direction: row;
