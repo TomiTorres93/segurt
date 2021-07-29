@@ -1,0 +1,340 @@
+/* Extends */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header, .portada, body .seccion, body .seccion-perseg, body .seccion-area, body .carousel-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* LISTAS */
+/* MENU */
+.menu {
+  text-decoration: none;
+  text-align: right;
+  position: absolute;
+  right: 100px;
+  color: #AB1D37;
+  font-size: 0.85rem;
+  z-index: 100;
+  font-weight: 500;
+}
+
+.menu .opciones {
+  display: inline-block;
+  font-size: 0.7rem;
+  margin-top: 0px;
+  width: 100%;
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 100px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: 500;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu li a {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.menu li a:hover {
+  font-weight: 800;
+}
+
+.menu .active {
+  font-weight: 800;
+}
+
+.menu nav ul li {
+  margin: 10px;
+}
+
+/* Extends */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header, .portada, body .seccion, body .seccion-perseg, body .seccion-area, body .carousel-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* LISTAS */
+.fondo-header {
+  position: absolute;
+  z-index: 50;
+  top: 0px;
+  width: 100%;
+}
+
+.logo-container {
+  z-index: 100;
+  padding: 10px 0 0 100px;
+}
+
+.logo-img {
+  height: 66px;
+  width: 207px;
+}
+
+.portada {
+  text-align: right;
+}
+
+.titulo-portada {
+  width: 767px;
+  height: 230.96px;
+}
+
+.titulo-portada-container {
+  padding: 0px 0 0 200px;
+  z-index: 100;
+}
+
+/* Extends */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header, .portada, body .seccion, body .seccion-perseg, body .seccion-area, body .carousel-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* LISTAS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 25px;
+}
+
+html ::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  line-height: 1.55;
+  width: 100%;
+  margin: 0px auto;
+  font-family: 'Barlow', sans-serif;
+  /*SECCIONES*/
+  /*IMAGENES*/
+  /*TEXTOS*/
+}
+
+body .bg-gris {
+  background-color: #D8D8D8;
+}
+
+body .servicios {
+  position: relative;
+  height: 45vw;
+  background-image: url("../images/Mask-Group-3.png");
+  background-position: right;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+body .seccion-perseg {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+  bottom: 100px;
+}
+
+body .text-container-seguridad {
+  padding: 4% 15% 1% 10%;
+  height: 25vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+body .seccion-area {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/fondo-areas-segurt.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/fondo-areas-segurt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 4% 15% 1% 10%;
+  height: 25vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+body .img-g {
+  width: 100%;
+}
+
+body .img-p-container {
+  width: 50%;
+}
+
+body .img-p {
+  width: 100%;
+}
+
+body .img-portada {
+  width: 100%;
+}
+
+body .text-container {
+  padding: 0% 5% 3% 3%;
+}
+
+body .parrafo {
+  font-size: 1vw;
+  font-weight: 300;
+}
+
+body .subtitulo {
+  font-size: 2vw;
+  font-weight: 800;
+}
+
+body .text-container-rojo {
+  width: 70vw;
+  height: 15vw;
+  background-color: #AB1D37;
+  color: white;
+  padding: 1% 2% 1% 3%;
+}
+
+body .recuadro-rojo {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+
+body .text-per-seg {
+  color: #AB1D37;
+  font-weight: 800;
+  font-size: 0.5rem;
+}
+
+body .text-area-segurt {
+  font-size: 1.2vw;
+  font-weight: 300;
+  color: white;
+}
+
+body .subtitulo-area {
+  font-size: 2vw;
+  font-weight: 800;
+  color: white;
+}
+
+body .subtitulo-area-2 {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #AB1D37;
+}
+
+body .parrafo-area {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+/* Extends */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header, .portada, body .seccion, body .seccion-perseg, body .seccion-area, body .carousel-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */
