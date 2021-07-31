@@ -1,0 +1,5 @@
+Los accesos al ftp son: 
+Información del usuario FTP
+Usuario ftp@c2250190.ferozo.com
+Contraseña: la24NAfuge
+Servidor: ftp://c2250190.ferozo.com

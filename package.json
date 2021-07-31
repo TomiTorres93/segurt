@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TomiTorres93/segurt/issues"
   },
-  "homepage": "https://github.com/TomiTorres93/segurt#readme"
+  "homepage": "https://github.com/TomiTorres93/segurt#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }

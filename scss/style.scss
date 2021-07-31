@@ -1,13 +1,15 @@
-
+@import '../scss/componentes/body';
 @import '../scss/componentes/navbar';
 @import '../scss/componentes/footer';
 @import '../scss/componentes/header';
-@import '../scss/componentes/body';
-
-@import '../scss/base/querys';
-@import '../scss/base/size';
-@import '../scss/base/variables';
 
 
 @import '../scss/funciones/mixins';
 @import '../scss/funciones/extends';
+
+
+@import '../scss/base/size';
+@import '../scss/base/variables';
+@import '../scss/base/querys';
+
+

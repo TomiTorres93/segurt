@@ -2,335 +2,462 @@
 <html lang="en">
 
 <head>
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="images/logo-solo.png">
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="#">
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- AOS - efectos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- FONTS -->  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600;800&display=swap" rel="stylesheet">
-    <!-- META DESCRIPTION -->
-    <meta name="description" content="Segurt, calidad en seguridad">
-
-    <!-- KEYWORDS -->
-    <meta name="keywords"
-        content="">
-
-    <!-- OPEN GRAPH -->
-    <meta property="og:tittle" content="Segurt, calidad en seguridad">
-    <meta property="og:image" content="">
-    <meta property="og:image:width" content="320px">
-    <meta property="og:image:height" content="118px">
-    <meta property="og:url" content="index.html">
-    <meta property="og:description" content="">
-    <meta property="og:author" content="Segurt">
-    <meta property="og:locale" content="en_AR">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <!-- Tittle -->
-    <title> Segurt, calidad en seguridad </title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- AOS - efectos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600;800&display=swap" rel="stylesheet">
+  <!-- META DESCRIPTION -->
+  <meta name="description" content="Segurt, calidad en seguridad">
+
+  <!-- KEYWORDS -->
+  <meta name="keywords" content="">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:tittle" content="Segurt, calidad en seguridad">
+  <meta property="og:image" content="">
+  <meta property="og:image:width" content="320px">
+  <meta property="og:image:height" content="118px">
+  <meta property="og:url" content="index.html">
+  <meta property="og:description" content="">
+  <meta property="og:author" content="Segurt">
+  <meta property="og:locale" content="en_AR">
+
+
+
+  <!-- Tittle -->
+  <title> Segurt, calidad en seguridad </title>
+</head>
+
+<body>
   <header>
-<!-- FONDO HEADER -->
-    <img class="fondo-header" src="images/Rectangle-5.svg" alt="logo segurt"> 
+    <!-- FONDO HEADER - DESKTOP -->
+    <img class="fondo-header none-mobile" src="images/Rectangle-5.svg" alt="logo segurt">
+
+    <!-- FONDO HEADER - MOBILE -->
+    <img class="fondo-header none-desktop" src="images/fondo-menu-mobile.svg" alt="logo segurt">
+
     <!-- LOGO -->
     <div class="logo-container">
-      <img class="logo-img"  src="images/logo-segurt.svg" alt="logo segurt"> 
+      <img class="logo-img" src="images/logo-segurt.svg" alt="logo segurt">
     </div>
 
-
-    <!-- MENU NAVBAR -->
-    <nav class="menu">
-        <ul class="opciones">
-            <li><a>NOSOTROS</a></li>
-            <li><a>SERVICIOS</a></li>
-            <li><a>CONSEJOS</a></li>
-            <li><a>CONTACTO</a></li>
-        </ul>
+    <!-- MENU MOBILE -->
+    <nav class="none-desktop ">
+        <img class="navbar-toggler collapsed menu-boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" src="/images/menu-button.png" alt="botón del menú">
+   
+      <ul class="collapse navbar-collapse menu-mobile" id="navbarNav">
+        <li><a a href="#nosotros">NOSOTROS</a>
+          <ul>
+            <li><a href="#nosotros">QUIÉNES SOMOS</a></li>
+            <li><a href="#nosotros">NUESTRA CALIDAD</a></li>
+            <li><a href="#rrhh">RECURSOS HUMANOS</a></li>
+          </ul>
+        </li>
+        <li><a href="#servicios">SERVICIOS</a>
+          <ul>
+            <li><a href="#segpres">SEGURIDAD PRESENCIAL</a></li>
+            <li><a href="#segvirt">SEGURIDAD VIRTUAL</a></li>
+            <li><a href="#area">ÁREA SEGURT</a></li>
+          </ul>
+        </li>
+        <li><a href="#consejos">CONSEJOS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
     </nav>
 
-  
+    <!-- MENU NAVBAR - DESKTOP -->
+    <nav class="none-mobile">
+      <ul>
+        <li><a a href="#nosotros">NOSOTROS</a>
+          <ul>
+            <li><a href="#nosotros">QUIÉNES SOMOS</a></li>
+            <li><a href="#nosotros">NUESTRA CALIDAD</a></li>
+            <li><a href="#rrhh">RECURSOS HUMANOS</a></li>
+          </ul>
+        </li>
+        <li><a href="#servicios">SERVICIOS</a>
+          <ul>
+            <li><a href="#segpres">SEGURIDAD PRESENCIAL</a></li>
+            <li><a href="#segvirt">SEGURIDAD VIRTUAL</a></li>
+            <li><a href="#area">ÁREA SEGURT</a></li>
+          </ul>
+        </li>
+        <li><a href="#consejos">CONSEJOS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+
+
   </header>
 
 
-    <!-- PORTADA -->
-    <div class="portada">
-      <div class="col-4 titulo-portada-container">
- <img class="titulo-portada" src="images/segurt-portada-titulo.svg" alt="segurt titulo portada">
+  <!-- PORTADA - TEXTO -->
+  <div class="portada">
+    <div class="col-lg-4 titulo-portada-container">
+      <img class="titulo-portada none-mobile" src="images/titulo-desktop.png" alt="segurt titulo portada">
     </div>
-    <div class="col-8">
+
+    <!-- MOBILE -->
+    <div class="col-sm-12 titulo-portada-container">
+      <img class="titulo-portada none-desktop" src="images/titulo-mobile.png" alt="segurt titulo portada">
+    </div>
+
+    <div class="col-lg-4 none-mobile"></div>
+
+    <!-- FOTO PORTADA -->
+    <div class="col-lg-8 col-sm-12 none-mobile">
       <img class="img-portada" src="images/Mask-Group-1.png" alt="portada Segurt">
     </div>
-    </div>
-
-
-<!-- NOSOTROS -->
-
-<section class="seccion bg-gris">
-<div class="col-6">
-<img class="img-p" src="images/Mask-Group-2.png" alt="Dos agentes de seguridad">
-</div>
-<div class="text-container col-6">
-  <p class="subtitulo">NOSOTROS</p>
-  <p class="parrafo">Protegerte es nuestra prioridad. Por eso, nos encargamos de brindar el servicio de más 
-    alta calidad en materia de seguridad. Contamos con un equipo humano responsable, comprometido 
-    y capacitado para cumplir con las necesidades de cada cliente. Nuestra avanzada tecnología
-     nos permite estar al nivel de cada una de sus exigencias. Para nosotros, el trato cercano
-      con nuestros clientes es esencial para generar una seguridad integral.</p>
-</div>
-</section>
-  
-
-<!-- SERVICIOS -->
-
-<section class="servicios">
-<div class="recuadro-rojo">
-  <div class="text-container-rojo">
-    <p class="subtitulo">SERVICIOS</p>
-    <p class="parrafo">Contamos con una estructura que nos permite actuar de manera 
-      inmediata ante los requerimientos de cada cliente. Para eso, tenemos diferentes 
-      alternativas comunicacionales que permiten enviar novedades en tiempo real. 
-      Nuestros supervisores, distribuidos en turnos diurnos y nocturnos con movilidad 
-      vehicular, están disponibles constantemente para asistir inmediatamente
-       ante cualquier urgencia.</p>
-  </div>
-  </div>
-</section>
-
-
-
-
-<!-- SEGURIDAD PRESENCIAL -->
-
-<section class="section bg-gris">
-
-  <div class="text-container-seguridad">
-    <h3 class="subtitulo">SEGURIDAD PRESENCIAL</h3>
-    <p class="parrafo">Nuestros vigiladores capacitados cuentan con la más alta 
-      tecnología para brindarles la mayor protección a nuestros clientes. A partir 
-      del análisis de riesgo, nuestro personal conoce previamente las posibles 
-      amenazas a las que tendrá que enfrentarse. Cada uno de los integrantes de 
-      nuestro equipo está preparado para cumplir con las exigencias que cada caso 
-      requiera. La conexión de nuestro centro de monitoreo con las centrales 
-      policiales, afianza la efectividad de nuestro personal de seguridad 
-      brindándoles información de las posibles amenazas que detecta constantemente.</p>
-  </div>
-</section>
-
-<!-- PERSONAL DE SEGURIDAD IMG -->
-
-<div class="seccion-perseg">
-
-  <div class="per-seg">
-    <img class="img-per-seg" src="images/Group 3731.png" alt="">
-    <p class="text-per-seg"> PERSONAL DE SEGURIDAD</p>
-  </div>
-
-  <div class="per-seg">
-    <img class="img-per-seg" src="images/Group 3732.png" alt="">
-    <p class="text-per-seg"> PERSONAL DE SEGURIDAD</p>
-  </div>
-
-  <div class="per-seg">
-    <img class="img-per-seg" src="images/Group 3733.png" alt="">
-    <p class="text-per-seg"> PERSONAL DE SEGURIDAD</p>
-  </div>
-
-  <div class="per-seg">
-    <img class="img-per-seg" src="images/Group 3734.png" alt="">
-    <p class="text-per-seg"> PERSONAL DE SEGURIDAD</p>
-  </div>
-
-</div>
-
-<!-- ÁREAS SEGURT -->
-
-<section class="seccion-area">
-<div class="col-4">
-  <h3 class="subtitulo-area">ÁREAS SEGURT</h3>
-  <p class="text-area-segurt">Segurt es especialiesta en brindar servicios de seguridad para los
-    siguientes sectores.
-  </p>
-</div>
-
-<div class="carousel-area col-8">
-  <div>
-    <img src="images/Group-3739.svg" alt="edificio">
-  </div>
-  <div>
-    <p class="subtitulo-area-2">CONSORCIOS</p>
-    <p class="parrafo-area">Nuestros vigiladores se encargan de la supervisión constante de quiénes 
-      entran a los edificios, visitantes y propietarios, a partir de la toma de datos y análisis de 
-      riesgo a partir de la información brindada por nuestras cámaras de seguridad.</p>
-  </div>
-</div>
-
-</section>
-
-
-
-<!-- SEGURIDAD VIRTUAL -->
-
-<section class="seccion-seguridad">
-<div class="seguridad-container">
-  <h3 class="subtitulo pad-seg-virt-sub"> SEGURIDAD VIRTUAL </h3>
-  <p class="parrafo pad-seg-virt-par"> Nuestra más alta tecnología te permite tener un seguimiento constante de tu vivienda, aunque no estésa allí. 
-    A partir de la instalación de nuestras alarmas y cámaras, tus pertenencias, buenes personales y tu seguridad 
-    están protegidas.
-  </p>
-</div>
-<div class="img-container">
-  <img class="img-c" src="images\camara-seguridad.png" alt="camara-seguridad">
-</div>
-</section>
-
-
-<!-- RECURSOS HUMANOS -->
-
-<section class="seccion-rrhh">
-
-  <div class="img-container">
-    <img class="img-c" src="images\recursos-humanos.png" alt="seguridad caminando segurt">
-  </div>
-
-  <div class="rrhh-container bg-gris">
-    <h3 class="subtitulo pad-seg-virt-sub"> RECURSOS HUMANOS </h3>
-    <p class="parrafo pad-seg-virt-par"> En nuestra empresa buscamos constantemente personas 
-      <span class="negrita">responsables y comprometidas</span> con la ciudadanía para incorporar a nuestro equipo
-      de trabajo.
-      <br><br>
-      <span class="negrita">Si querés formar parte de la familia Segurt, dejá tu contacto acá.</span>
-
-    <div class="input-container" >
-      <label for="email"></label>
-      <input  class="input"
-      type="email" 
-      name="mail" 
-      id="email"
-      placeholder="Email"
-      required>
-
-        <button type="submit" class="cv-boton">ADJUNTAR CV</button>
-      </form>
+    <!-- MOBILE -->
+    <div class="col-sm-12 none-desktop">
+      <img class="img-portada" src="images/foto-portada-mobile.png" alt="portada Segurt">
     </div>
   </div>
+
+
+  <!-- NOSOTROS -->
+
+  <section data-aos="fade-up" class="seccion bg-gris" id="nosotros">
+    <div class="col-lg-6 col-sm-12">
+      <img class="img-p" src="images/Mask-Group-2.png" alt="Dos agentes de seguridad">
+    </div>
+    <div class="text-container col-lg-6 col-sm-12">
+      <p class="subtitulo">NOSOTROS</p>
+      <p class="parrafo">Protegerte es nuestra prioridad. Por eso, nos encargamos de brindar el servicio de más
+        alta calidad en materia de seguridad. Contamos con un equipo humano responsable, comprometido
+        y capacitado para cumplir con las necesidades de cada cliente. Nuestra avanzada tecnología
+        nos permite estar al nivel de cada una de sus exigencias. Para nosotros, el trato cercano
+        con nuestros clientes es esencial para generar una seguridad integral.</p>
+    </div>
   </section>
 
 
-<!-- CONSEJOS -->
+  <!-- SERVICIOS -->
 
-<section class="seccion-consejos">
-  <div class="consejos-container">
-    <h3 class="subtitulo pad-seg-virt-sub"> CONSEJOS </h3>
-    <p class="parrafo pad-seg-virt-par"> Nuestro compromiso con la protección de la ciudadanía es 
-      constante. Por eso, queremos cuidarte en todo momento y mantenerte actuali-zado sobre las 
-      últimas novedades sobre seguridad. Si querés saber más, a continuación, te damos nuestros consejos.
-    </p>
+  <section data-aos="fade-up" class="servicios" id="servicios">
+    <div class="recuadro-rojo">
+      <div class="text-container-rojo">
+        <p class="subtitulo">SERVICIOS</p>
+        <p class="parrafo">Contamos con una estructura que nos permite actuar de manera
+          inmediata ante los requerimientos de cada cliente. Para eso, tenemos diferentes
+          alternativas comunicacionales que permiten enviar novedades en tiempo real.
+          Nuestros supervisores, distribuidos en turnos diurnos y nocturnos con movilidad
+          vehicular, están disponibles constantemente para asistir inmediatamente
+          ante cualquier urgencia.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- SEGURIDAD PRESENCIAL -->
+
+  <section data-aos="fade-up" class="seg-pres-seccion bg-gris" id="segpres">
+
+    <div class="text-container-seguridad">
+      <h3 class="subtitulo">SEGURIDAD PRESENCIAL</h3>
+      <p class="parrafo">Nuestros vigiladores capacitados cuentan con la más alta
+        tecnología para brindarles la mayor protección a nuestros clientes. A partir
+        del análisis de riesgo, nuestro personal conoce previamente las posibles
+        amenazas a las que tendrá que enfrentarse. Cada uno de los integrantes de
+        nuestro equipo está preparado para cumplir con las exigencias que cada caso
+        requiera. La conexión de nuestro centro de monitoreo con las centrales
+        policiales, afianza la efectividad de nuestro personal de seguridad
+        brindándoles información de las posibles amenazas que detecta constantemente.</p>
+    </div>
+  </section>
+
+  <!-- PERSONAL DE SEGURIDAD IMG -->
+
+  <div data-aos="fade-up" class="seccion-perseg">
+
+    <div class="per-seg">
+      <img class="img-per-seg" src="images/Group 3731.png" alt="">
+    </div>
+
+    <div class="per-seg none-mobile">
+      <img class="img-per-seg" src="images/Group 3732.png" alt="">
+    </div>
+
+    <div class="per-seg none-mobile">
+      <img class="img-per-seg" src="images/Group 3733.png" alt="">
+    </div>
+
+    <div class="per-seg none-mobile">
+      <img class="img-per-seg" src="images/Group 3734.png" alt="">
+    </div>
+
+  </div>
+
+  <!-- ÁREAS SEGURT -->
+
+  <section data-aos="fade-up" class="seccion-area" id="area">
+    <div class="col-lg-4 col-sm-12">
+      <h3 class="subtitulo-area">ÁREAS SEGURT</h3>
+      <p class="text-area-segurt">Segurt es especialiesta en brindar servicios de seguridad para los
+        siguientes sectores.
+      </p>
+    </div>
+
+    <div class="carousel-area col-lg-8 col-sm-12">
+      <p class="subtitulo-area-2 none-desktop">CONSORCIOS</p>
+      <div>
+        <img src="images/Group-3739.svg" alt="edificio">
+      </div>
+      <div>
+        <p class="subtitulo-area-2 none-mobile">CONSORCIOS</p>
+        <p class="parrafo-area">Nuestros vigiladores se encargan de la supervisión constante de quiénes
+          entran a los edificios, visitantes y propietarios, a partir de la toma de datos y análisis de
+          riesgo a partir de la información brindada por nuestras cámaras de seguridad.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- SEGURIDAD VIRTUAL - DESKTOP -->
+
+  <section data-aos="fade-up" class="seccion-seguridad none-mobile" id="segvirt">
+    <div class="seguridad-container">
+      <h3 class="subtitulo pad-seg-virt-sub"> SEGURIDAD VIRTUAL </h3>
+      <p class="parrafo pad-seg-virt-par"> Nuestra más alta tecnología te permite tener un seguimiento constante de tu
+        vivienda, aunque no estésa allí.
+        A partir de la instalación de nuestras alarmas y cámaras, tus pertenencias, buenes personales y tu seguridad
+        están protegidas.
+      </p>
+    </div>
+    <div class="img-container">
+      <img class="img-c" src="images\camara-seguridad.png" alt="camara-seguridad">
+    </div>
+  </section>
+
+  <!-- SEGURIDAD VIRTUAL - MOBILE -->
+
+  <section data-aos="fade-up" class="seccion-seguridad none-desktop" id="segvirt">
+    <div class="img-container">
+      <img class="img-c" src="images\camara-seguridad.png" alt="camara-seguridad">
+    </div>
+    <div class="seguridad-container">
+      <h3 class="subtitulo pad-seg-virt-sub"> SEGURIDAD VIRTUAL </h3>
+      <p class="parrafo pad-seg-virt-par"> Nuestra más alta tecnología te permite tener un seguimiento constante de tu
+        vivienda, aunque no estésa allí.
+        A partir de la instalación de nuestras alarmas y cámaras, tus pertenencias, buenes personales y tu seguridad
+        están protegidas.
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- RECURSOS HUMANOS - DESKTOP -->
+
+  <section data-aos="fade-up" class="seccion-rrhh none-mobile" id="rrhh">
+
+    <div class="img-container">
+      <img class="img-c" src="images\recursos-humanos.png" alt="seguridad caminando segurt">
+    </div>
+
+    <div class="rrhh-container bg-gris">
+      <h3 class="subtitulo pad-seg-virt-sub"> RECURSOS HUMANOS </h3>
+      <p class="parrafo pad-seg-virt-par"> En nuestra empresa buscamos constantemente personas
+        <span class="negrita">responsables y comprometidas</span> con la ciudadanía para incorporar a nuestro equipo
+        de trabajo.
+        <br><br>
+        <span class="negrita">Si querés formar parte de la familia Segurt, dejá tu contacto acá.</span>
+
+        <div class="input-container">
+          <label for="email"></label>
+          <input class="input" type="email" name="mail" id="email" placeholder="Email" required>
+
+          <button type="submit" class="cv-boton">ADJUNTAR CV</button>
+          </form>
+        </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS HUMANOS - MOBILE -->
+
+  <section data-aos="fade-up" class="seccion-rrhh none-desktop" id="rrhh">
+
+    <div class="img-container">
+      <img class="img-c" src="images\recursos-humanos.png" alt="seguridad caminando segurt">
+    </div>
+
+    <div class="rrhh-container bg-gris">
+      <h3 class="subtitulo pad-seg-virt-sub"> RECURSOS HUMANOS </h3>
+      <p class="parrafo pad-seg-virt-par"> En nuestra empresa buscamos constantemente personas
+        <span class="negrita">responsables y comprometidas</span> con la ciudadanía para incorporar a nuestro equipo
+        de trabajo.
+        <br><br>
+        <span class="negrita">Si querés formar parte de la familia Segurt, dejá tu contacto acá.</span>
+
+        <div class="input-container">
+          <label for="email"></label>
+          <input class="input" type="email" name="mail" id="email" placeholder="Email" required>
+
+          <button type="submit" class="cv-boton">ADJUNTAR CV</button>
+          </form>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- CONSEJOS - DESKTOP-->
+
+  <section data-aos="fade-up" class="seccion-consejos none-mobile" id="consejos">
+    <div class="consejos-container">
+      <h3 class="subtitulo pad-seg-virt-sub"> CONSEJOS </h3>
+      <p class="parrafo pad-seg-virt-par"> Nuestro compromiso con la protección de la ciudadanía es
+        constante. Por eso, queremos cuidarte en todo momento y mantenerte actuali-zado sobre las
+        últimas novedades sobre seguridad. Si querés saber más, a continuación, te damos nuestros consejos.
+      </p>
+      <div class="ver-consejos-container">
+        <p class="ver-consejos"> <a href=""> VER CONSEJOS </a> </p>
+      </div>
+    </div>
+    <div class="img-container">
+      <img class="img-c" src="images\camara-domo.png" alt="camara-domo">
+    </div>
+  </section>
+
+  <!-- CONSEJOS - MOBILE-->
+
+  <section data-aos="fade-up" class="seccion-consejos none-desktop" id="consejos">
+    <div class="img-container">
+      <img class="img-c" src="images\camara-domo.png" alt="camara-domo">
+    </div>
+    <div class="consejos-container">
+      <h3 class="subtitulo pad-seg-virt-sub"> CONSEJOS </h3>
+      <p class="parrafo pad-seg-virt-par"> Nuestro compromiso con la protección de la ciudadanía es
+        constante. Por eso, queremos cuidarte en todo momento y mantenerte actuali-zado sobre las
+        últimas novedades sobre seguridad. Si querés saber más, a continuación, te damos nuestros consejos.
+      </p>
+
+    </div>
     <div class="ver-consejos-container">
-    <p class="ver-consejos"> <a href=""> VER CONSEJOS </a> </p>
-  </div>
-  </div>
-  <div class="img-container">
-    <img class="img-c" src="images\camara-domo.png" alt="camara-domo">
-  </div>
+      <p class="ver-consejos"> <a href=""> VER CONSEJOS </a> </p>
+    </div>
   </section>
 
-<!-- FOOTER -->
+  <!-- FOOTER -->
 
-<footer class="footer">
-<div class="col-3">
-  <p class="subtitulo">CONTACTO</p>
-  <div class="footer-blocks"><img class="img-footer" src="images/telefono.png" alt="telefono">
-  <p class="parrafo footer-textos">+54 9 11 5805-4699 </p></div>
+  <footer data-aos="fade-up" class="footer" id="contacto">
+    <div class="col-lg-3 col-sm-12">
+      <p class="subtitulo">CONTACTO</p>
+      <div class="footer-blocks"><img class="img-footer" src="images/telefono.png" alt="telefono">
+        <p class="parrafo footer-textos"> <a href="tel:+54 9 11 5805-4699"> +54 9 11 5805-4699 </a> </p>
+      </div>
 
-  <div class="footer-blocks"><img class="img-footer" src="images/mapa.svg" alt="mapa">
-   <p class="parrafo footer-textos"> <a href="">Tucumán 1516 9C - CABA </a> </p></div>
+      <div class="footer-blocks"><img class="img-footer" src="images/mapa.svg" alt="mapa">
+        <p class="parrafo footer-textos"> <a target="_blank"
+            href="https://www.google.com.ar/maps/place/Tucum%C3%A1n+1516,+C1017+CABA/@-34.6018631,-58.3904812,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccac6d162ad4f:0xe9414a9a182e015d!8m2!3d-34.6018675!4d-58.3882925">Tucumán
+            1516 9C - CABA </a> </p>
+      </div>
 
-  <div class="footer-blocks"><img class="img-footer" src="images/mail.png" alt="correo electrónico">
-  <p class="parrafo footer-textos"> <a href=""> gerencia@segurt.com.ar </a> </p></div>
+      <div class="footer-blocks"><img class="img-footer" src="images/mail.png" alt="correo electrónico">
+        <p class="parrafo footer-textos"> <a target="_blank" href="mailto:gerencia@segurt.com.ar">
+            gerencia@segurt.com.ar </a> </p>
+      </div>
 
-</div>
-
-<div class="col-3">
-  <img class="logo-img-footer" src="images/logo-segurt-blanco.svg" alt="logo segurt"> 
-  <p class="subtitulo-footer">Seguinos:</p>
-  <div class="footer-blocks">
-  <a href=""><img class="img-footer" src="images/linkedin.svg" alt="linkedin"></a>
-  <a href=""><img class="img-footer" src="images/facebook.svg" alt="facebook"></a>
-  <a href=""><img class="img-footer" src="images/instagram.svg" alt="instagram"></a>
-  <a href=""><img class="img-footer" src="images/youtube.svg" alt="youtube"></a>
-</div>
-</div>
-
-<!-- FORMULARIO -->
-<div class="form-container col-6">
-  <div class="input-container" >
-    <label for="email"></label>
-    <input  class="email-footer"
-    type="email" 
-    name="mail" 
-    id="email"
-    placeholder="Email"
-    required>
-
-    <div>
-    <label for="name"></label>
-    <input  class="nombre-empresa"
-    type="name" 
-    name="name" 
-    id="name"
-    placeholder="Nombre"
-    required>
-
-    <label for="surname"></label>
-    <input  class="nombre-empresa"
-    type="company" 
-    name="company" 
-    id="company"
-    placeholder="Empresa"
-    required>
-  </div>
-  <label for="text"></label>
-  <input  class="comentario"
-  type="text" 
-  name="text" 
-  id="text"
-  placeholder="Comentario"
-  required>
-    <div>
-      <button type="submit" class="footer-boton bg-gris">ENVIAR</button>
     </div>
-    </form>
-  </div>
-</div>
 
-</footer>
+    <div class="col-lg-3 col-sm-12">
+      <img class="logo-img-footer" src="images/logo-segurt-blanco.svg" alt="logo segurt">
+      <p class="subtitulo-footer">Seguinos:</p>
+      <div class="footer-blocks">
+        <a href=""><img class="img-footer" src="images/linkedin.svg" alt="linkedin"></a>
+        <a href=""><img class="img-footer" src="images/facebook.svg" alt="facebook"></a>
+        <a href=""><img class="img-footer" src="images/instagram.svg" alt="instagram"></a>
+        <a href=""><img class="img-footer" src="images/youtube.svg" alt="youtube"></a>
+      </div>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="form-container col-lg-6 col-sm-12">
+      <div class="input-container">
+        <label for="email"></label>
+        <input class="email-footer" type="email" name="mail" id="email" placeholder="Email" required>
+
+        <div>
+          <label for="name"></label>
+          <input class="nombre-empresa" type="name" name="name" id="name" placeholder="Nombre" required>
+
+          <label for="surname"></label>
+          <input class="nombre-empresa" type="company" name="company" id="company" placeholder="Empresa" required>
+        </div>
+        <label for="text"></label>
+        <input class="comentario" type="text" name="text" id="text" placeholder="Comentario" required>
+        <div>
+          <button type="submit" class="footer-boton bg-gris">ENVIAR</button>
+        </div>
+        </form>
+      </div>
+    </div>
+
+  </footer>
 
 
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 150, // offset (in px) from the original trigger point
+      delay: 10, // values from 0 to 3000, with step 50ms
+      duration: 700, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    });
+  </script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>

@@ -31,15 +31,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-a {
-    text-decoration: none;
-    color: white;
-    transition: 0.3s all;
-
-    &:hover {
-        color: black;
+    section a {
+        text-decoration: none;
+        color: white  
     }
-}
+
+    section a:hover {
+        color:white;
+        font-weight: nth($font-weight, 3);
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white  
+    }
+
+    footer a:hover {
+        color:white;
+        font-weight: nth($font-weight, 3);
+    }
+
 
     /*SECCIONES*/
 
@@ -135,9 +146,6 @@ a {
     width: 100%;
 }
 
-.img-portada {
- width: 100%;
-}
 
 .img-c {
     width: 100%;
@@ -282,6 +290,9 @@ a {
     width: 8vw;
 }
 }
+
+
+
 
 
 

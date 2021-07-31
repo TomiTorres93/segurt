@@ -5,7 +5,8 @@
 
 @import '../base/variables';
 
-
+ 
+/*HEADER */
 header {
     @extend %flexbox-row;
 }
@@ -15,6 +16,18 @@ header {
     z-index: 50;
     top: 0px;
     width: 100%;
+}
+
+.titulo-portada {
+    width: 35vw;
+
+}
+
+.titulo-portada-container {
+    padding: 0px 0 0 200px;
+    z-index: 100;
+    position: absolute;
+    top: 20vw;
 }
 
 .logo-container {
@@ -30,16 +43,11 @@ padding: 10px 0 0 100px;
 .portada {
     @extend %flexbox-row;
     text-align: right;
+
 }
 
-.titulo-portada {
-    width: 767px;
-    height: 230.96px;
-}
-
-.titulo-portada-container {
-    padding: 0px 0 0 200px;
-    z-index: 100;
-}
-
+.img-portada {
+    width: 100%;
+   }
+   
 
