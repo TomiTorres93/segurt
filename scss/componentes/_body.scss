@@ -51,7 +51,9 @@ body {
         font-weight: nth($font-weight, 3);
     }
 
-
+    a {
+        text-decoration: none;
+    }
     /*SECCIONES*/
 
 
@@ -146,6 +148,9 @@ body {
     width: 100%;
 }
 
+.img-portada {
+ width: 100%;
+}
 
 .img-c {
     width: 100%;
@@ -247,12 +252,25 @@ body {
     padding: 2vw;
     height: 20vw;
     width: 53%;
+    
 }
 
 .ver-consejos {
     margin:auto;
     text-align: center;
     padding-top: 0.1vw;
+    
+}
+
+.consejo-text {
+    color: white;
+}
+
+.ver-consejos-seccion {
+    position: relative;
+    bottom: 9vw;
+    left: 5vw;
+
 }
 
 .ver-consejos-container {
@@ -264,6 +282,7 @@ body {
     height: 2vw;
     width: 8vw;
     margin: 0vw 0vw 0vw 15vw;
+    
 }
 
 
