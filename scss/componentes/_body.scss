@@ -133,6 +133,10 @@ body {
     margin-top: 5vw;
 }
 
+.consejos-boton {
+    text-decoration: none;
+    color: white;
+}
 
 /*IMAGENES*/
 
@@ -209,22 +213,6 @@ body {
     color: white;
 }
 
-.subtitulo-area {
-    font-size: 2vw;
-    font-weight: nth($font-weight, 3);
-    color: white;
-}
-
-.subtitulo-area-2 {
-    font-size: 2vw;
-    font-weight: nth($font-weight, 4);
-    color: nth($color, 1);
-}
-
-.parrafo-area {
-    font-size: 1vw;
-    font-weight: nth($font-weight, 2);
-}
 
 .seguridad-container {
     padding: 2vw;
@@ -284,7 +272,6 @@ body {
     margin: 0vw 0vw 0vw 15vw;
     
 }
-
 
 
 /* ADJUNTAR CV BOTON */
